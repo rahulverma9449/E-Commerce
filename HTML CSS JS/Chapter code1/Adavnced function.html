@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Advance Function</title>
+</head>
+<body>
+
+  <button id="my-button" >Click me</button>
+  <script>
+let buttonElement = document.querySelector('#my-button');
+
+let behaviour = event => console.log('I am clicked')
+buttonElement.addEventListener('doubleclicked', behaviour);
+
+
+let printDate = event => console.log(new Date());
+buttonElement.addEventListener('click', printDate);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  // let sum = function(num1, num2){
+  //   return num1 + num2;
+  // }
+  // // console.log(sum(4,5));
+
+  // let sum3number  = function (num1, num2, num3, sum2numbers) {
+  //   let sum1  = sum2numbers(num1, num2);
+  //   return sum2numbers(sum1, num3);
+  // }
+  // console.log(sum3number(4,5,6, sum));
+
+// Arrow Function:
+
+// let sum = (num1, num2) =>{
+// return num1 + num2;
+// }
+// console.log(sum(6,8));
+
+// let alarm = () =>
+// console.log(`Hello word 2024 ${new Date()}`);
+// let timerId = setTimeout(alarm, 2000);
+//   console.log(`Alarm set:${timerId}`);
+
+  // let intervalID = setInterval(alarm,1000);
+  // setTimeout(() => clearInterval(intervalID), 5000);
+</script>
+</body>
+</html>

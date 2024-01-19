@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="./toggle.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Toggle Button</title>
+</head>
+<body>       
+
+  <button class="button-56" role="button">Button</button>
+  
+  <button id="Test">Submit</button>
+<script>
+Test.addEventListener("mouseover", setDark);
+Test.addEventListener("mouseover", setLight);
+
+function setDark(){
+  document.body.style.background = "Black";
+  Test.style.color = "Purple";
+}
+function setLight(){
+  document.body.style.background = "White";
+  Test.style.color = "Black";
+}
+
+  </script>
+</body>
+</html>
+
